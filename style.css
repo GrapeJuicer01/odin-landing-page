@@ -2,4 +2,37 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 8px 72px;
+}
+
+.navbar-header {
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: 300;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* MAIN HERO */
+.main {
+
 }
