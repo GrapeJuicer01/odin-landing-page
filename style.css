@@ -1,5 +1,6 @@
 body {
     font-family: Roboto;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -34,5 +35,124 @@ body {
 
 /* MAIN HERO */
 .main {
+    display: flex;
+    padding: 36px 72px;
+    background-color: #1F2937;
+    color: white;
+    gap: 8px;
+}
 
+.main-left-panel {
+    font-size: 18px;
+    flex: 1;
+}
+
+.main-header {
+    font-size: 48px;
+    font-weight: 900
+}
+
+.main-sign-up {
+    padding: 6px 24px;
+    background-color: #2882F6;
+    color: white;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.main img {
+    width: 400px;
+    height: 200px;
+    border: #E5E7EB 1px;
+}
+
+/* FIGURE HERO */
+figure {
+    margin: 0;
+}
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 72px;
+    margin-bottom: 32px;
+}
+
+.figure h2 {
+    font-size: 32px;
+}
+
+.card-container {
+    display: flex;
+    gap: 12px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #2882F6;
+    border-radius: 10px;
+}
+
+/* SECTION */
+
+section {
+    background-color: #E5E7EB;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 200px;
+}
+
+.section-content {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.section-quote {
+    margin-left: auto;
+}
+
+/* SUMMARY */
+.summary {
+    padding: 36px 72px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2882F6;
+    border: #2882F6 1px;
+    border-radius: 5px;
+    padding: 16px 72px;
+    color: white;
+}
+
+.banner-left-content-one {
+    font-weight: bold;
+}
+
+.banner-sign-up {
+    background-color: transparent;
+    color: white;
+    border: #E5E7EB 2px solid;
+    border-radius: 10px;
+    padding: 6px 24px;
 }
