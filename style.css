@@ -40,6 +40,7 @@ body {
     background-color: #1F2937;
     color: white;
     gap: 8px;
+    height: 25vh;
 }
 
 .main-left-panel {
@@ -80,6 +81,7 @@ figure {
     align-items: center;
     padding: 36px 72px;
     margin-bottom: 32px;
+    height: 25vh;
 }
 
 .figure h2 {
@@ -88,7 +90,7 @@ figure {
 
 .card-container {
     display: flex;
-    gap: 12px;
+    gap: 36px;
 }
 
 .card {
@@ -107,7 +109,6 @@ figure {
 }
 
 /* SECTION */
-
 section {
     background-color: #E5E7EB;
 }
@@ -115,7 +116,9 @@ section {
 .section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 36px 200px;
+    height: 25vh;
 }
 
 .section-content {
@@ -123,6 +126,7 @@ section {
     color: #1F2937;
     font-weight: lighter;
     font-style: italic;
+    flex-wrap: wrap;
 }
 
 .section-quote {
@@ -131,7 +135,11 @@ section {
 
 /* SUMMARY */
 .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 36px 72px;
+    height: 25vh;
 }
 
 .banner {
@@ -155,4 +163,14 @@ section {
     border: #E5E7EB 2px solid;
     border-radius: 10px;
     padding: 6px 24px;
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 36px 72px;
 }
